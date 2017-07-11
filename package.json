@@ -1,0 +1,23 @@
+{
+  "name": "nodetesting",
+  "version": "1.0.0",
+  "description": "Node JS testing used with Mocha and other testing libs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test_old": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "patman1970.github.com"
+  },
+  "author": "Pat Esty",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.7"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
